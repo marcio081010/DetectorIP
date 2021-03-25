@@ -132,21 +132,19 @@ apt-get install python3-setuptools
 easy_install3 pip
 pip3 install -r requirements.txt
 
-### ⚠️Attention⚠️
+## ⚠️Attention⚠️
 
-⚠️🚧* this script was made for the purpose of improving your learning about python programming!! *🚧⚠️
+⚠️🚧 this script was made for the purpose of improving your learning about python programming!! 🚧⚠️
 
 🚧then Use at your own risk and take responsibility for your acts.🚧
 
-
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 By: ⚡Marcio Vinicius⚡
 💸💲help keep this project from sponsoring!!💲💰
 😊❤️🏆my contact if you want to sponsor me: marcio081010@outlook.com
 
 🔆"don't let others limit your success, success only depends on your choices!!"🔆
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
