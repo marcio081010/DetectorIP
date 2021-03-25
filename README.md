@@ -134,9 +134,12 @@ pip3 install -r requirements.txt
 
 ### ⚠️Attention⚠️
 
-*this script was made for the purpose of improving your learning about python programming!! 
+⚠️🚧* this script was made for the purpose of improving your learning about python programming!! *🚧⚠️
 
 🚧then Use at your own risk and take responsibility for your acts.🚧
+
+
+
 
 By: ⚡Marcio Vinicius⚡
 💸💲help keep this project from sponsoring!!💲💰
