@@ -1,60 +1,136 @@
-# DetectorIP
-## What is
+# 🚀📤DetectorIP📤🚀
 
-+ Uma ferramenta para recuperar informações de geolocalização IP
+## 🎇What is
 
-+ Alimentado por ip-api
++ 📌A tool for retrieving IP geolocation information
 
-## Requirements
++ 📌Powered by ip-api
 
-+ Python version 3.x
+## 🎇Requirements
 
-+ termcolor
++ 🔹Python version 3.x
 
-+ colorama
++ 🔹colorama
 
-## Features
++ 🔹termcolor
 
-+  Select random proxy from file. Each proxy URL in new line. 
+## 🎇Features
 
-+  Export results to csv, xml and txt format.
++  ✔️Select random proxy from file. Each proxy URL in new line. 
 
-+  Select random User-Agent strings from file. Each User Agent string in new line.
++  ✔️Export results to csv, xml and txt format.
 
-+  Retrieve IP or Domain Geolocation.
++  ✔️Select random User-Agent strings from file. Each User Agent string in new line.
 
-+  Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
++  ✔️Retrieve IP or Domain Geolocation.
 
-+  Retrieve your own IP Geolocation.
++  ✔️Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
 
-+  Define your own custom User Agent string.
++  ✔️Retrieve your own IP Geolocation.
 
-+  Proxy support.
++  ✔️Define your own custom User Agent string.
 
-+  Open IP geolocation in Google Maps using the default browser.
++  ✔️Proxy support.
 
-## information obtained
++  ✔️Open IP geolocation in Google Maps using the default browser.
 
-+ Longtitude
+## 🎇information obtained
 
-+ Latitude
++ 🌟Longtitude
 
-+ Organization
++ 🌟Latitude
 
-+ Zip Code
++ 🌟Organization
 
-+ Region Name
++ 🌟Zip Code
 
-+ Timezone
++ 🌟Region Name
 
-+ Region Code
++ 🌟Timezone
 
-+ ISP
++ 🌟Region Code
 
-+ Country Code
++ 🌟ISP
 
-+ Country
++ 🌟Country Code
 
-+ City
++ 🌟Country
 
-+ ASN
++ 🌟City
+
++ 🌟ASN
+
+## 🎇Examples
+
+Retrieve your IP Geolocation
+
+🔸 ./ip2geolocation.py -m
+Retrieve IP Geolocation
+
+🔸 ./ip2geolocation.py -t x.x.x.x
+Retrieve Domain Geolocation
+
+🔸 ./ip2geolocation.py -t example.com
+Do not save .log files
+
+🔸 ./ip2geolocation.py -t example.com --nolog
+Custom User Agent string
+
+🔸 ./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
+Using Proxy
+
+🔸 ./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080
+Using random Proxy
+
+🔸 ./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt
+Pick User-Agent string randomly
+
+🔸 ./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt
+Retrieve IP geolocation and open location in Google maps with default browser
+
+🔸 ./ip2geolocation.py -t x.x.x.x -g
+Export results to CSV file
+
+🔸 ./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv
+Export results to XML file
+
+🔸 ./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml
+Export results to TXT file
+
+🔸 ./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt
+Retrieve IP Geolocation for many targets
+
+🔸 ./ip2geolocation.py -T /path/to/targets/targets.txt
+Retrieve IP Geolocation for many targets and export results to xml
+
+🔸 ./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml
+Do not print results to terminal
+
+🔸 ./ip2geolocation.py -m -e /path/to/results.txt --noprint
+
+## 🎇Download/Installation
+
+git clone https://github.com/marcio081010/DetectorIP
+pip3 install -r requirements.txt --user
+if pip3 is missing:
+
+apt-get install python3-setuptools
+easy_install3 pip
+pip3 install -r requirements.txt
+
+### ⚠️Attention⚠️
+
+*this script was made for the purpose of improving your learning about python programming!! 
+
+🚧then Use at your own risk and take responsibility for your acts.🚧
+
+🔆By: Marcio Vinicius⚡⚡
+💸help keep this project from sponsoring!!💰
+💲💲my contact if you want to sponsor me: marcio081010@outlook.com
+
+
+
+
+
+
+
