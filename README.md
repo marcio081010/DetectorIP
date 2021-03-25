@@ -2,109 +2,123 @@
 
 ## 🎇What is
 
-+ 📌A tool for retrieving IP geolocation information
+ 📌A tool for retrieving IP geolocation information
 
-+ 📌Powered by ip-api
+ 📌Powered by ip-api
 
 ## 🎇Requirements
 
-+ 🔹Python version 3.x
+ 🔹Python version 3.x
 
-+ 🔹colorama
+ 🔹colorama
 
-+ 🔹termcolor
+ 🔹termcolor
 
 ## 🎇Features
 
-+  ✔️Select random proxy from file. Each proxy URL in new line. 
+  ✔️Select random proxy from file. Each proxy URL in new line. 
 
-+  ✔️Export results to csv, xml and txt format.
+  ✔️Export results to csv, xml and txt format.
 
-+  ✔️Select random User-Agent strings from file. Each User Agent string in new line.
+  ✔️Select random User-Agent strings from file. Each User Agent string in new line.
 
-+  ✔️Retrieve IP or Domain Geolocation.
+  ✔️Retrieve IP or Domain Geolocation.
 
-+  ✔️Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
+  ✔️Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
 
-+  ✔️Retrieve your own IP Geolocation.
+  ✔️Retrieve your own IP Geolocation.
 
-+  ✔️Define your own custom User Agent string.
+  ✔️Define your own custom User Agent string.
 
-+  ✔️Proxy support.
+  ✔️Proxy support.
 
-+  ✔️Open IP geolocation in Google Maps using the default browser.
+  ✔️Open IP geolocation in Google Maps using the default browser.
 
 ## 🎇information obtained
 
-+ 🌟Longtitude
+ 🌟Longtitude
 
-+ 🌟Latitude
+ 🌟Latitude
 
-+ 🌟Organization
+ 🌟Organization
 
-+ 🌟Zip Code
+ 🌟Zip Code
 
-+ 🌟Region Name
+ 🌟Region Name
 
-+ 🌟Timezone
+ 🌟Timezone
 
-+ 🌟Region Code
+ 🌟Region Code
 
-+ 🌟ISP
+ 🌟ISP
 
-+ 🌟Country Code
+ 🌟Country Code
 
-+ 🌟Country
+ 🌟Country
 
-+ 🌟City
+ 🌟City
 
-+ 🌟ASN
+ 🌟ASN
 
 ## 🎇Examples
 
-Retrieve your IP Geolocation
++ Retrieve your IP Geolocation
 
 🔸 ./ip2geolocation.py -m
-Retrieve IP Geolocation
+
++ Retrieve IP Geolocation
 
 🔸 ./ip2geolocation.py -t x.x.x.x
-Retrieve Domain Geolocation
+
++ Retrieve Domain Geolocation
 
 🔸 ./ip2geolocation.py -t example.com
-Do not save .log files
+
++ Do not save .log files
 
 🔸 ./ip2geolocation.py -t example.com --nolog
-Custom User Agent string
+
++ Custom User Agent string
 
 🔸 ./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
-Using Proxy
+
++ Using Proxy
 
 🔸 ./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080
-Using random Proxy
+
++ Using random Proxy
 
 🔸 ./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt
-Pick User-Agent string randomly
+
++ Pick User-Agent string randomly
 
 🔸 ./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt
-Retrieve IP geolocation and open location in Google maps with default browser
+
++ Retrieve IP geolocation and open location in Google maps with default browser
 
 🔸 ./ip2geolocation.py -t x.x.x.x -g
-Export results to CSV file
+
++ Export results to CSV file
 
 🔸 ./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv
-Export results to XML file
+
++ Export results to XML file
 
 🔸 ./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml
-Export results to TXT file
+
++ Export results to TXT file
 
 🔸 ./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt
-Retrieve IP Geolocation for many targets
+
++ Retrieve IP Geolocation for many targets
 
 🔸 ./ip2geolocation.py -T /path/to/targets/targets.txt
-Retrieve IP Geolocation for many targets and export results to xml
+
++ Retrieve IP Geolocation for many targets and export results to xml
 
 🔸 ./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml
-Do not print results to terminal
+
++ Do not print results to terminal
 
 🔸 ./ip2geolocation.py -m -e /path/to/results.txt --noprint
 
@@ -124,9 +138,11 @@ pip3 install -r requirements.txt
 
 🚧then Use at your own risk and take responsibility for your acts.🚧
 
-🔆By: Marcio Vinicius⚡⚡
-💸help keep this project from sponsoring!!💰
-💲💲my contact if you want to sponsor me: marcio081010@outlook.com
+By: ⚡Marcio Vinicius⚡
+💸💲help keep this project from sponsoring!!💲💰
+😊❤️🏆my contact if you want to sponsor me: marcio081010@outlook.com
+
+🔆"don't let others limit your success, success only depends on your choices!!"🔆
 
 
 
